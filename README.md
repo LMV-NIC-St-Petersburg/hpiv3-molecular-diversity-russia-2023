@@ -9,3 +9,4 @@ It includes phylogenetic trees and scripts for reproducing the visualisation of 
 - **Trees:** Fig3_data_boost.nwk and fig4_boot.tree.
 - **Rscript:** Visualisation.R
 - **Metadata:** Supplementary_table_Final.xlsx
+- **figtree_supported folder:** Folder contains trees that can be viewed in FigTree
