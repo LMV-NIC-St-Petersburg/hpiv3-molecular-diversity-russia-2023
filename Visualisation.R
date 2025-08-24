@@ -87,7 +87,7 @@ add_multiple_strips_flexible <- function(plot_object, annotations_df,
 ########################### Fig 3 ################################
 
 metadata <- readxl::read_excel(
-  "Supplementary_table_Final.xlsx", skip = 2,
+  "Supplementary table.xlsx", skip = 2,
   .name_repair = janitor::make_clean_names, sheet = 3
 ) |>
   mutate(
@@ -188,7 +188,7 @@ ggsave(
 
 
 metadata <- readxl::read_excel(
-  "Supplementary_table_Final.xlsx", skip = 2,
+  "Supplementary table.xlsx", skip = 2,
   .name_repair = janitor::make_clean_names, sheet = 4
 ) |>
   mutate(
@@ -344,4 +344,5 @@ ggsave(
   pppp,
   dpi = 600, scale = 1.2
 )
+
 
